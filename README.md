@@ -216,17 +216,19 @@ Add your application screenshots here.
 
 Example:
 
-```markdown
+## 📸 Screenshots
+
+### Login
 ![Login](notework-client/assets/login.png)
 
+### Dashboard
 ![Dashboard](notework-client/assets/dashboard.png)
 
+### Tasks
 ![Tasks](notework-client/assets/tasks.png)
 
+### Calendar
 ![Calendar](notework-client/assets/calendar.png)
-```
-
----
 
 # 🔮 Future Improvements
 
