@@ -4,9 +4,6 @@
 
 Example:
 ## 📸 Screenshots
-## 📸 Screenshots
-
-## 📸 Screenshots
 
 ## Login
 ![Login](./notework-client/assets/login.png)
@@ -29,7 +26,24 @@ Example:
 ## Settings
 ![Settings](./notework-client/assets/settings.png)
 
-# 📝 NoteWorkAI
+<p align="center">
+  <img src="./notework-client/assets/favicon.png" alt="NoteWorkAI Logo" width="120" />
+</p>
+
+<h1 align="center">📝 NoteWorkAI</h1>
+
+<p align="center">
+  <strong>AI-powered productivity platform for smart notes, task management, and seamless Google Calendar integration.</strong>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/React-19-61DAFB?logo=react" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express-000000?logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/Google%20Gemini-AI-blue" />
+</p>
 
 **NoteWorkAI** is an AI-powered productivity platform that helps users organize notes, manage tasks, and manage their schedules more efficiently. Powered by **Google Gemini AI**, it transforms raw notes into actionable insights, automatically extracts tasks, and seamlessly synchronizes events with **Google Calendar** through two-way synchronization.
 
