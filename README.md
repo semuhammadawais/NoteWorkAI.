@@ -6,26 +6,28 @@ Example:
 ## 📸 Screenshots
 ## 📸 Screenshots
 
-### Login
-![Login](./notework-client/assets/Screenshot%202026-07-17%20002536.png)
+## 📸 Screenshots
 
-### Dashboard
-![Dashboard](./notework-client/assets/Screenshot%202026-07-17%20002610.png)
+## Login
+![Login](./notework-client/assets/login.png)
 
-### Tasks
-![Tasks](./notework-client/assets/Screenshot%202026-07-17%20002639.png)
+## Sign Up
+![Sign Up](./notework-client/assets/signup.png)
 
-### Calendar
-![Calendar](./notework-client/assets/Screenshot%202026-07-17%20002705.png)
+## Task Board
+![Task Board](./notework-client/assets/taskboard.png)
 
-### AI Notes
-![AI Notes](./notework-client/assets/Screenshot%202026-07-17%20002726.png)
+## AI Summary
+![AI Summary](./notework-client/assets/aisummary.png)
 
-### Settings
-![Settings](./notework-client/assets/Screenshot%202026-07-17%20003038.png)
+## Analytics Dashboard
+![Analytics](./notework-client/assets/analytics.png)
 
-### Profile
-![Profile](./notework-client/assets/Screenshot%202026-07-17%20003115.png)
+## Admin Dashboard
+![Admin Dashboard](./notework-client/assets/admin.png)
+
+## Settings
+![Settings](./notework-client/assets/settings.png)
 
 # 📝 NoteWorkAI
 
