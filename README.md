@@ -1,3 +1,32 @@
+
+# 📸 Screenshots
+ application screenshots here.
+
+Example:
+## 📸 Screenshots
+## 📸 Screenshots
+
+### Login
+![Login](./notework-client/assets/Screenshot%202026-07-17%20002536.png)
+
+### Dashboard
+![Dashboard](./notework-client/assets/Screenshot%202026-07-17%20002610.png)
+
+### Tasks
+![Tasks](./notework-client/assets/Screenshot%202026-07-17%20002639.png)
+
+### Calendar
+![Calendar](./notework-client/assets/Screenshot%202026-07-17%20002705.png)
+
+### AI Notes
+![AI Notes](./notework-client/assets/Screenshot%202026-07-17%20002726.png)
+
+### Settings
+![Settings](./notework-client/assets/Screenshot%202026-07-17%20003038.png)
+
+### Profile
+![Profile](./notework-client/assets/Screenshot%202026-07-17%20003115.png)
+
 # 📝 NoteWorkAI
 
 **NoteWorkAI** is an AI-powered productivity platform that helps users organize notes, manage tasks, and manage their schedules more efficiently. Powered by **Google Gemini AI**, it transforms raw notes into actionable insights, automatically extracts tasks, and seamlessly synchronizes events with **Google Calendar** through two-way synchronization.
@@ -210,35 +239,6 @@ Production deployments enforce HTTPS, secure cookies, optimized CORS policies, a
 
 ---
 
-# 📸 Screenshots
-
-Add your application screenshots here.
-
-Example:
-
-## 📸 Screenshots
-## 📸 Screenshots
-
-### Login
-![Login](notework-client/assets/Screenshot%202026-07-17%20002536.png)
-
-### Dashboard
-![Dashboard](notework-client/assets/Screenshot%202026-07-17%20002610.png)
-
-### Tasks
-![Tasks](notework-client/assets/Screenshot%202026-07-17%20002639.png)
-
-### Calendar
-![Calendar](notework-client/assets/Screenshot%202026-07-17%20002705.png)
-
-### AI Notes
-![AI Notes](notework-client/assets/Screenshot%202026-07-17%20002726.png)
-
-### Settings
-![Settings](notework-client/assets/Screenshot%202026-07-17%20003038.png)
-
-### Profile
-![Profile](notework-client/assets/Screenshot%202026-07-17%20003115.png)
 
 # 🔮 Future Improvements
 
