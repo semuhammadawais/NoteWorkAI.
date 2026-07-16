@@ -217,18 +217,28 @@ Add your application screenshots here.
 Example:
 
 ## 📸 Screenshots
+## 📸 Screenshots
 
 ### Login
-![Login](notework-client/assets/login.png)
+![Login](notework-client/assets/Screenshot%202026-07-17%20002536.png)
 
 ### Dashboard
-![Dashboard](notework-client/assets/dashboard.png)
+![Dashboard](notework-client/assets/Screenshot%202026-07-17%20002610.png)
 
 ### Tasks
-![Tasks](notework-client/assets/tasks.png)
+![Tasks](notework-client/assets/Screenshot%202026-07-17%20002639.png)
 
 ### Calendar
-![Calendar](notework-client/assets/calendar.png)
+![Calendar](notework-client/assets/Screenshot%202026-07-17%20002705.png)
+
+### AI Notes
+![AI Notes](notework-client/assets/Screenshot%202026-07-17%20002726.png)
+
+### Settings
+![Settings](notework-client/assets/Screenshot%202026-07-17%20003038.png)
+
+### Profile
+![Profile](notework-client/assets/Screenshot%202026-07-17%20003115.png)
 
 # 🔮 Future Improvements
 
