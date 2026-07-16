@@ -1,8 +1,5 @@
+application screenshots here.
 
-# 📸 Screenshots
- application screenshots here.
-
-Example:
 ## 📸 Screenshots
 
 ## Login
@@ -27,10 +24,10 @@ Example:
 ![Settings](./notework-client/assets/settings.png)
 
 <p align="center">
-  <img src="./notework-client/assets/favicon.png" alt="NoteWorkAI Logo" width="120" />
+  <img src="./notework-client/public/favicon.png" alt="NoteWorkAI Logo" width="120" />
 </p>
 
-<h1 align="center">📝 NoteWorkAI</h1>
+<h1 align="center">NoteWorkAI</h1>
 
 <p align="center">
   <strong>AI-powered productivity platform for smart notes, task management, and seamless Google Calendar integration.</strong>
