@@ -1,0 +1,76 @@
+services:
+  # ---------------------------
+  # MongoDB
+  # ---------------------------
+  mongo:
+    image: mongo:7
+    container_name: noteworkMongo-dev
+    restart: unless-stopped
+
+    ports:
+      - "27017:27017"
+
+    volumes:
+      - mongo-data:/data/db
+
+  # ---------------------------
+  # Backend
+  # ---------------------------
+  server:
+    build:
+      context: ./notework-server
+      dockerfile: Dockerfile.dev
+
+    container_name: noteworkServer-dev
+    restart: unless-stopped
+
+    working_dir: /app
+
+    volumes:
+      - ./notework-server:/app
+      - /app/node_modules
+
+    env_file:
+      - ./notework-server/.env
+
+    command: npm run dev
+
+    ports:
+      - "5000:5000"
+
+    depends_on:
+      - mongo
+
+    stdin_open: true
+    tty: true
+
+  # ---------------------------
+  # Frontend
+  # ---------------------------
+  client:
+    build:
+      context: ./notework-client
+      dockerfile: Dockerfile.dev
+
+    container_name: noteworkClient-dev
+    restart: unless-stopped
+
+    working_dir: /app
+
+    volumes:
+      - ./notework-client:/app
+      - /app/node_modules
+
+    command: npm run dev -- --host 0.0.0.0
+
+    ports:
+      - "5173:5173"
+
+    depends_on:
+      - server
+
+    stdin_open: true
+    tty: true
+
+volumes:
+  mongo-data:

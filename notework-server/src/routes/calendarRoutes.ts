@@ -13,10 +13,7 @@ router.get(
   protect,
   (req: AuthenticatedRequest, res: Response) => {
     const authUrl = googleCalendar.getAuthUrl(req.user!.id);
-
-    console.log("Generated URL:", authUrl);
-
-    res.send(authUrl); // <-- temporarily send plain text
+    res.redirect(authUrl);
   },
 );
 

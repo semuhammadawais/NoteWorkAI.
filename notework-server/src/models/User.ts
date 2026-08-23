@@ -25,6 +25,8 @@ export interface IUser extends Document {
   role: "user" | "admin";
   isActive: boolean;
   calendarIntegrations?: ICalendarIntegrations;
+  createdAt: Date;
+  updatedAt: Date;
   comparePassword(candidatePassword: string): Promise<boolean>;
 }
 

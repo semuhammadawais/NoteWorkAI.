@@ -12,20 +12,27 @@ import { globalLimiter } from "./middleware/rateLimiters.js";
 import { env } from "./config/env.js";
 import calendarRoutes from "./routes/calendarRoutes.js";
 
-
 const app = express();
 
 app.set("trust proxy", 1);
 
 app.use(helmetMiddleware);
 
+const allowedOrigins = ["http://localhost", "http://localhost:5173"];
+
 app.use(
   cors({
-    origin: env.CLIENT_URL,
+    origin: (origin, callback) => {
+      if (!origin || allowedOrigins.includes(origin)) {
+        callback(null, true);
+      } else {
+        callback(new Error(`Origin ${origin} not allowed by CORS`));
+      }
+    },
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
-  })
+  }),
 );
 
 app.use(express.json({ limit: "1mb" }));

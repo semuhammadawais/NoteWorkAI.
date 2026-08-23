@@ -1,0 +1,47 @@
+version: "3.9"
+
+services:
+  mongo:
+    image: mongo:7
+    container_name: noteworkMongo
+    restart: unless-stopped
+
+    ports:
+      - "27017:27017"
+
+    volumes:
+      - mongo-data:/data/db
+
+  server:
+    build:
+      context: ./notework-server
+
+    container_name: noteworkServer
+
+    restart: unless-stopped
+
+    ports:
+      - "5000:5000"
+
+    env_file:
+      - ./notework-server/.env
+
+    depends_on:
+      - mongo
+
+  client:
+    build:
+      context: ./notework-client
+
+    container_name: noteworkClient
+
+    restart: unless-stopped
+
+    ports:
+      - "80:80"
+
+    depends_on:
+      - server
+
+volumes:
+  mongo-data:

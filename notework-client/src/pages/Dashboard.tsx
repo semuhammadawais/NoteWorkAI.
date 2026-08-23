@@ -170,7 +170,7 @@ export const Dashboard: React.FC = () => {
                   </span>
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 dark:text-white font-sans tracking-tight">
-                  MeetMind AI Control Center Enabled
+                  NoteWork AI Control Center Enabled
                 </h3>
                 <p className="text-sm text-slate-600 dark:text-slate-300 leading-relaxed font-sans max-w-3xl">
                   You are authenticated with full administrative privileges. Use
