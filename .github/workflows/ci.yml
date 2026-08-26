@@ -1,4 +1,4 @@
-name: NoteworkAI CI
+name: NoteworkAI CI/CD
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
       - main
 
 jobs:
-  build:
+  build-and-push:
     runs-on: ubuntu-latest
 
     steps:
@@ -37,5 +37,22 @@ jobs:
         working-directory: notework-server
         run: npm run build
 
-      - name: Build Docker images
-        run: docker compose build
+      - name: Login to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      - name: Build and push client image
+        uses: docker/build-push-action@v6
+        with:
+          context: ./notework-client
+          push: true
+          tags: semuhammadawais/notework-client:latest
+
+      - name: Build and push server image
+        uses: docker/build-push-action@v6
+        with:
+          context: ./notework-server
+          push: true
+          tags: semuhammadawais/notework-server:latest
